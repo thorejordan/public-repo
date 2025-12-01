@@ -1,7 +1,8 @@
-import json
 import csv
+import json
 from pathlib import Path
-from typing import Iterable, List, Dict, Any
+from typing import Iterable, List, Dict, Any, Optional
+from urllib import error, request
 
 ROOMS_FILE = Path("THM_Rooms_Sheet1.json")
 TEAMS_FILE = Path("teams1_1.json")
@@ -37,6 +38,70 @@ def summarize_room(room: str, teams: List[Dict[str, Any]]) -> Dict[str, Any]:
         "Hours": "Unknown",
         "Relevance by IT Role": relevance,
     }
+
+
+def slugify_room_name(room: str) -> str:
+    """Create a best-effort TryHackMe slug from the room title."""
+
+    return room.strip().lower().replace(" ", "-")
+
+
+def research_room(room: str, timeout: int = 10) -> Dict[str, Any]:
+    """Attempt to fetch room details from the public TryHackMe API.
+
+    The function is defensive and never raises network exceptions. If the
+    endpoint cannot be reached or returns unexpected data, the result will note
+    the failure reason so consumers can decide whether to retry manually.
+    """
+
+    slug = slugify_room_name(room)
+    url = f"https://tryhackme.com/api/room/{slug}"
+    try:
+        with request.urlopen(url, timeout=timeout) as response:
+            payload = json.loads(response.read())
+    except error.URLError as exc:  # Includes HTTPError
+        return {
+            "room": room,
+            "source": url,
+            "status": "unreachable",
+            "reason": str(exc),
+        }
+    except json.JSONDecodeError as exc:
+        return {
+            "room": room,
+            "source": url,
+            "status": "invalid-json",
+            "reason": str(exc),
+        }
+
+    return {
+        "room": room,
+        "source": url,
+        "status": "ok",
+        "data": payload,
+    }
+
+
+def research_missing_data(limit: Optional[int] = None) -> List[Dict[str, Any]]:
+    """Collect research results for rooms lacking descriptions.
+
+    Args:
+        limit: Optional cap on the number of rooms to query to avoid excessive
+            network calls during exploration.
+
+    Returns:
+        List of research result dictionaries with status indicators so callers
+        can understand which rooms still need manual input.
+    """
+
+    rooms = load_rooms()
+    if limit is not None:
+        rooms = rooms[:limit]
+
+    results: List[Dict[str, Any]] = []
+    for room in rooms:
+        results.append(research_room(room))
+    return results
 
 
 def start_research(batch_size: int = 50) -> Iterable[List[Dict[str, Any]]]:
