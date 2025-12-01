@@ -1,0 +1,276 @@
+Windows-Client-Team (Windows Client Administrator):
+M365, Exchange Online, Windows Server 2016–2025, Enterprise-Umgebung.
+AD-Domain mit mehreren Standorten (Düsseldorf als Hauptstandort, weitere Standorte/Konzernunternehmen)
+Hybrid-M365-Umgebung, On-Prem AD + Azure AD, Exchange Online, Teams, OneDrive, SharePoint Online
+Standardisierter Windows-10/11-Client mit zentralem Management (GPO + Intune/MECM/SCCM)
+
+Tools und Software (wahrscheinlicher Stack):
+
+Client-Management / Deployment
+Microsoft Endpoint Configuration Manager (SCCM/MECM) oder Intune für:
+OS-Deployment (Task Sequences, PXE, WIM-Images)
+
+Softwareverteilung:
+Inventarisierung
+Windows Deployment Services / MDT für Imaging spezialisierter Clients
+
+Imaging & Provisioning:
+WIM-Images mit Windows System Image Manager (unattended.xml)
+ggf. Autopilot für neue Laptops (bei starkem M365-Fokus wahrscheinlich)
+
+Patch-Management:
+WSUS + MECM/Intune für Windows-Updates und app-bezogene Patches
+Staged Rollout (Pilot → IT → Rest) wegen Impact-Risiko
+
+Endpoint Security
+Microsoft Defender for Endpoint als Standard-EDR
+Optional CrowdStrike Falcon oder SentinelOne als zusätzliche EDR-Schicht (bei Versicherern häufig)
+Policy- und Alert-Handling zusammen mit dem Security-Team
+
+Disk Encryption / Data Protection:
+BitLocker mit AD-/MBAM/Azure AD-Key-Storage
+Microsoft Information Protection (Labels, Auto-Classification) mit Policies für Kundendaten (BaFin/DSGVO)
+
+Remote Access / VPN:
+Cisco/Palo Alto-Stack wird indirekt über Profile eines ARAG-Admins sichtbar (Cisco, FortiGate, Palo Alto)
+Client-Seite: AnyConnect / GlobalProtect-Clients, Always-On-VPN-Profile etc.
+
+Browser-Management
+Standardbrowser: Edge (Enterprise-Policy über GPO/Intune)
+Firefox ESR als Zweitbrowser für Legacy-Anwendungen
+Zentrales Add-on-Management via Policies
+
+Remote Support:
+Enterprise-Remote-Tools wie TeamViewer Enterprise oder BeyondTrust
+Microsoft Remote Assistance / MECM-Remote-Control zusätzlich
+
+User Profile Management:
+Für VDI (Citrix/AVD): FSLogix Profile Container
+Für klassische Desktops: Roaming Profiles / Folder Redirection + Offline Files
+
+Automation & Scripting
+PowerShell-Skripte für:
+Massen-Änderungen (Registry, lokale Gruppen, Software)
+Automatisierte Reports (Compliance, Inventar)
+Integration mit MECM/Intune
+
+Typischer Tagesablauf / Kernaufgaben:
+3rd-Level-Support für komplexe Client-Probleme (Performance, GPO-Konflikte, M365-Client Issues)
+Pflege von GPOs (Hardening, Security Baselines, Printer/Drive-Mappings, Browser-Policies)
+Paketierung und Rollout von Anwendungen (MSI, Intune-Win, SCCM-Packages)
+Steuerung von Windows-/Office-Patches inkl. Pilotgruppen, Rollback-Strategien
+Endpoint-Security-Incidents (EDR-Alarme bewerten, isolieren, forensische Logs ziehen)
+Mitarbeit bei On-/Offboarding (Device-Zuweisung, Standard-Softwarepakete, Rechte)
+Laufende Optimierung (Boot-Zeiten, Login-Dauer, App-Startzeiten, Profil-Probleme)
+
+Windows-Server-Team (Windows Server Administrator):
+Windows Server 2016–2025, M365/Exchange Online, Enterprise-Rechenzentren.
+Mehrere Rechenzentrums-Standorte mit Windows-Server-Farmen.
+Hybride AD-/Azure-AD-Umgebung (On-Prem-AD, Azure AD, M365).
+Virtualisierung mit Hyper-V und VMware.
+Klassische On-Prem-Services (AD DS, DNS, DHCP, File, Print, RDS) plus Cloud-Dienste (M365, Azure).
+
+Tools und Software (wahrscheinlicher Stack):
+
+AD & Identity
+AD DS mit mehreren Domain Controllern pro Site
+AD Sites & Services für WAN-optimierte Replikation
+Azure AD Connect (+ Connect Health) für Hybrid Identity
+Conditional Access und MFA zusammen mit dem IAM-Team
+
+DNS / DHCP
+Windows DNS
+DHCP mit Scope-Management, Reservations, Failover
+
+File & Storage
+File-Server mit NTFS-/Share-Permissions, DFS Namespaces
+Storage Spaces Direct / SAN-Storage, Storage Replica für Site-to-Site-Replikation
+FSRM (Quota Management, File Screens, Reports)
+
+Virtualisierung & RDS
+Hyper-V-Cluster, Live Migration, Hyper-V Replica
+VMware-Cluster
+Remote Desktop Services / Citrix für Fachanwendungen
+
+M365 / Collaboration
+Exchange Online, ggf. Hybrid-Exchange
+Teams, SharePoint Online, OneDrive, ggf. On-Prem-SharePoint für Spezialfälle
+
+Management & Monitoring
+System Center (SCOM, SCVMM, Orchestrator, MECM)
+Windows Admin Center für GUI-basierte Verwaltung
+Perfmon, Resource Monitor, Event Viewer für Troubleshooting
+
+Security & Hardening
+Microsoft Defender for Endpoint (Server)
+Defender for Identity (AD-Security)
+Windows Firewall mit Advanced Security via GPO
+CIS Benchmarks / Microsoft Security Baselines (Security Compliance Toolkit, LGPO)
+
+Patch-Management
+WSUS + MECM oder vergleichbares System
+Getrennte Patch-Wellen (DEV/TEST/PROD) + Emergency-Patch-Prozess für Zero Days
+
+Automation
+Intensiver PowerShell-Einsatz (Remoting, DSC, Skripte)
+Ansible für Windows-Automatisierung (WinRM, Kerberos/NTLM)
+
+Typischer Tagesablauf / Kernaufgaben:
+Betrieb von AD, DNS, DHCP, File, Print, RDS und M365-bezogenen Backend-Diensten
+Pflege und Rollout von GPOs für Server-Hardening und Betriebsrichtlinien
+Kapazitäts- und Performanceoptimierung der Server-Farm (CPU/RAM/Storage)
+Planung und Durchführung von Patch-Fenstern inkl. Downtime-Koordination mit Fachbereichen
+Backup- und Restore-Tests (inkl. DR-Szenarien) mit der zentralen Backup-Lösung
+Incident-Bearbeitung (Ausfälle, Performance-Probleme, Security-Incidents)
+Projektarbeit (Migration auf neue Windows-Server-Versionen, Cloud-Integration, neue Plattformen)
+
+Network-Team (Network Administrator):
+Enterprise-Netzwerk mit Cisco-Core/Access-Switching.
+Mehrere Standorte, redundante Core-/Distribution-/Access-Layer.
+Mix aus Next-Gen-Firewalls (Check Point, Fortinet, Palo Alto).
+VPN-Infrastruktur für Remote-User und Standortanbindungen.
+Enge Verzahnung mit IAM/Zugriffsmanagement (802.1X, RADIUS, NAC).
+
+Tools und Software (wahrscheinlicher Stack):
+
+Core-Network
+Cisco Catalyst/Nexus-Switches (Core, Distribution, Access)
+Redundanz über VSS/StackWise
+VLAN-Segmentierung, ACLs, ggf. Cisco ACI im Datacenter
+
+Firewalls & Security
+Next-Gen-Firewalls (Check Point, Fortinet, Palo Alto)
+Policy-Management, Site-to-Site-IPsec-VPNs
+IDS/IPS-Funktionen, Web-Proxies / Secure Web Gateways
+
+VPN & Remote Access
+Remote-Access-VPN mit Cisco AnyConnect, Palo Alto GlobalProtect oder FortiClient
+Site-to-Site-VPNs zwischen Standorten, ggf. MPLS-Backbones mit VPN-Fallback
+
+Wireless
+Enterprise-WLAN (Cisco, Aruba o. ä.) mit zentralem Controller
+802.1X, WPA2-Enterprise/WPA3, SSID- und Rollen-basierte Trennung
+
+Network Access Control / Segmentierung
+NAC-Lösung (z. B. Cisco ISE, FortiNAC) zur Durchsetzung von Policies
+Mikrosegmentierung über VLANs, ACLs, ggf. ACI-Policies
+
+Monitoring & Analyse
+NetFlow/sFlow-Auswertungen für Traffic-Analysen
+SNMP-Monitoring über NMS (z. B. SCOM, PRTG, SolarWinds)
+Wireshark/tcpdump für Packet-Captures und Tiefenanalysen
+
+Dokumentation & IPAM
+Netzpläne mit Visio/Draw.io
+IP-Management mit Infoblox oder phpIPAM (IPAM, DNS-Integration, DHCP)
+
+Typischer Tagesablauf / Kernaufgaben:
+Betrieb und Pflege der Core-, Distribution- und Access-Switches sowie des WLAN
+Anlage und Pflege von Firewall-Regeln, NATs und VPN-Tunneln
+Betrieb und Überwachung der Remote-Access- und Site-to-Site-VPNs
+Incident-Handling bei Netzwerkstörungen (Performance, Paketverlust, Ausfälle)
+Mitwirkung am Zugriffsmanagement (802.1X, RADIUS-Policies, NAC-Regeln)
+Kapazitätsplanung (Bandbreite, Portdichte, Redundanzkonzepte)
+Regelmäßige Security-Reviews und Vorbereitung auf Audits
+
+DBA-Team (Database Administrator):
+Heterogener DB-Stack in reguliertem Umfeld (Versicherung, BaFin, DSGVO).
+Kombination aus Microsoft SQL Server, Oracle, DB2 und Open-Source-Datenbanken.
+Datenbanken auf Windows- und teilweise Linux-Plattformen.
+Strenge Anforderungen an Verfügbarkeit, Integrität, Auditierbarkeit.
+
+Tools und Software (wahrscheinlicher Stack):
+
+RDBMS
+Microsoft SQL Server 2019/2022 (OLTP, Reporting, DWH)
+Oracle Database für Legacy-/Enterprise-Fachanwendungen
+DB2 LUW für spezifische Kernsysteme
+PostgreSQL und/oder MySQL/MariaDB für neue oder OSS-nahe Projekte
+
+HA / DR
+SQL Server Always On Availability Groups + WSFC
+Oracle RAC und Data Guard für Tier-1-Systeme
+DB2 HADR oder vergleichbare HA-/DR-Mechanismen
+PostgreSQL-Streaming-Replication (z. B. mit Patroni/Keepalived/etcd/Consul)
+
+Backup / Recovery
+Native Backups (SQL Server, RMAN, pgBackRest/Barman etc.) auf Disk + Tape/Appliance
+Integration mit zentraler Backup-Software (z. B. Veeam, NetBackup, Commvault)
+Regelmäßige Restore- und DR-Tests inkl. Point-in-Time-Recoveries
+
+Monitoring
+Zentrales Monitoring (z. B. SCOM)
+DB-spezifische Tools (Redgate, Quest, Oracle OEM, Prometheus-Exporter → Grafana)
+Alerting-Anbindung an das Ticketsystem (z. B. Jira Service Management)
+
+Schema-/Release-Management
+Automatisierte Schema-Migrationen (Flyway/Liquibase-Ansatz)
+CI/CD-Pipelines (Azure DevOps, Jenkins) für DB-Changes über DEV/TEST/PROD
+
+Security & Compliance
+Striktes Rollen- und Rechtekonzept
+DSGVO-Funktionen (Löschroutinen, Pseudonymisierung, Data Masking in Testsystemen)
+Datenbank-Activity-Monitoring (z. B. Imperva, IBM Guardium, Oracle AVDF)
+Audit-Trails gemäß BaFin/DSGVO-Vorgaben
+
+Typischer Tagesablauf / Kernaufgaben:
+Provisionierung neuer DB-Instanzen/Cluster, Schemas und Service-Accounts
+Performance-Tuning (Execution Plans, Index-Design, Statistiken, Wait-Analysen)
+Laufende Backup-Kontrolle und Durchführen von Restores (Routine- und Ad-hoc)
+Patching und Upgrades (Minor/Major, Sicherheits-Patches)
+Benutzer- und Rollenverwaltung, Rechte-Reviews
+Umsetzung von Audit- und Datenschutzanforderungen (inkl. „Recht auf Vergessenwerden“)
+Zusammenarbeit mit Entwicklern (Schema-Reviews, Performance- und Zugriffsberatung)
+
+Linux-Team (Linux Administrator):
+Relevante Linux-Landschaft für Web-/App-Server, Middleware, Datenbanken und Tools.
+Kombination aus RHEL-/SLES-Umgebungen und Debian/Ubuntu.
+Linux-Server überwiegend virtualisiert (vSphere), ggf. plus Container-Plattformen.
+
+Tools und Software (wahrscheinlicher Stack):
+
+Distributionen
+Red Hat / RHEL und Derivate (CentOS Stream, Rocky/Alma) für Enterprise-Workloads
+Debian/Ubuntu für Web-/Tools-Server
+SLES im SAP-/Enterprise-Umfeld möglich
+
+Virtualisierung / Container / Cloud
+VMware vSphere für Linux-VMs
+Kubernetes/OpenShift für containerisierte Workloads
+Docker/Podman für Dev/Test und Build-Pipelines
+
+Configuration Management / IaC
+Ansible als zentrales Tool für Konfigurations- und Betriebsautomatisierung
+Puppet/Salt für State-Enforcement und Drift-Detection
+Terraform für Infrastruktur-Provisionierung (IaaS, Netzwerk, Security Groups)
+
+Middleware / Web
+Apache HTTPD, Nginx, ggf. HAProxy als Reverse Proxy / Load Balancer
+WebSphere Application Server
+Tomcat/JBoss/WildFly für Java-basierte Anwendungen
+
+Monitoring / Logs
+Prometheus + node_exporter / DB-Exporter
+Grafana-Dashboards für Infrastruktur- und Applikationsmetriken
+Zentrales Log-Management mit ELK/Graylog/OpenSearch für Syslog und Applogs
+
+Security
+SELinux/AppArmor auf produktiven Servern
+Host-Firewalls (iptables/nftables/firewalld)
+fail2ban für SSH-/HTTP-Brute-Force-Schutz
+Vulnerability-Scanner (Qualys, Tenable, Nessus)
+Integration mit zentralem SIEM (Log-Forwarding, Auditd-Regeln)
+
+Backup / DR
+Filesystem-Snapshots (LVM/Btrfs/ZFS) plus zentrale Backup-Software
+Datenbank-spezifische Backup-Tools (z. B. pgBackRest, RMAN) in enger Abstimmung mit DB-Team
+Cluster- und Container-Backups (z. B. Velero bei K8s)
+
+Typischer Tagesablauf / Kernaufgaben:
+Provisionierung und Konfiguration neuer Linux-Server (VM-Builds, Cloud-Instanzen)
+Pflege und Weiterentwicklung von Ansible-Playbooks / Puppet-Manifests
+Betrieb von Web-/App-Servern und Middleware (Apache, Nginx, WebSphere, Tomcat/JBoss/WildFly)
+Patch-Management (OS-Updates, Kernel-Patches, Emergency-Patches bei kritischen CVEs)
+Performance-Tuning auf OS- und Applikationsebene (sysctl, I/O, Thread-/Connection-Tuning)
+System-Hardening nach internen Policies/CIS-Benchmarks
+Zusammenarbeit mit Dev/DevOps (CI/CD-Pipelines, Container-Builds, Helm-Charts)

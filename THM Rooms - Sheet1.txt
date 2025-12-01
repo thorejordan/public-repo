@@ -1,0 +1,1000 @@
+'0day
+0x41haz
+A Bucket of Phish
+A Bucket of Phish
+Abusing Windows Internals
+Active Directory Basics
+Active Directory Hardening
+Active Reconnaissance
+AD Certificate Templates
+AD Tier Model
+AD: Authenticated Enumeration
+AD: BadSuccessor
+AD: Basic Enumeration
+Advanced ELK Queries
+Advanced SQL Injection
+Advanced Static Analysis
+Advent of Cyber '23 Side Quest
+Advent of Cyber '24 Side Quest
+Advent of Cyber 1 [2019]
+Advent of Cyber 2 [2020]
+Advent of Cyber 2022
+Advent of Cyber 2023
+Advent of Cyber 2024
+Advent of Cyber 3 (2021)
+Adventure Time
+Agent Sudo
+Agent T
+AI Forensics
+AI/ML Security Threats
+Airplane
+Alfred
+All in One
+AllSignsPoint2Pwnage
+Analysing Volatile Memory
+Android Analysis
+Android Hacking 101
+Android Malware Analysis
+Annie
+Anonforce
+Anonymous
+Anonymous Playground
+Anthem
+Anti-Reverse Engineering
+APIWizards Breach
+APT28 in the Snare
+APT28 Inception Theory
+Aratus
+Archangel
+Aster
+Athena
+Atlas
+Atlassian CVE-2022-26134
+Atomic Bird Goes Purple #1
+Atomic Bird Goes Purple #2
+Atomic Red Team
+AttackerKB
+Attacking ECB Oracles
+Attacking ICS Plant #1
+Attacking ICS Plant #2
+Attacking Kerberos
+Attacking LLMs
+Attack Surface Reduction
+Auditing and Monitoring
+Autopsy
+AV Evasion: Shellcode
+Aware Online Banking
+Azure Infrastructure Recon
+Azure Network Recon
+Baby Encryption
+Backtrack
+BadByte
+Baron Samedit
+Basic Dynamic Analysis
+Basic Malware RE
+Basic Pentesting
+Basic Static Analysis
+Berlin
+Biblioteca
+Biohazard
+Block
+Blizzard
+Block
+Blog
+Blue
+Blueprint
+Boiler CTF
+Bolt
+Boogeyman 1
+Boogeyman 2
+Boogeyman 3
+Blizzard
+Block
+Blog
+Blue
+Blueprint
+Boiler CTF
+Bolt
+Boogeyman 1
+Boogeyman 2
+Boogeyman 3
+Bookstore
+Borderlands
+Bounty Hacker
+Brainpan 1
+Brains
+Brainstorm
+Breaching Active Directory
+Break it
+Break Out The Cage
+Breaking Crypto the Simple Way
+Breaking RSA
+Breakme
+Brim
+broker
+Brooklyn Nine Nine
+Brute
+Brute Force Heroes
+Brute It
+Buffer Overflow Prep
+Buffer Overflows
+Bugged
+Burg3r
+Burp Suite: Extensions
+Burp Suite: Intruder
+Burp Suite: Other Modules
+Burp Suite: Repeater
+Burp Suite: The Basics
+c4ptur3-th3-fl4g
+Cache Me Outside
+Cactus
+Calculated
+Capture!
+Carnage
+Cat Pictures
+Cat Pictures 2
+CC: Ghidra
+CC: Pen Testing
+CC: Radare2
+CC: Steganography
+CherryBlossom
+Chocolate Factory
+Chronicle
+CI/CD and Build Security
+Cisco IOS Vulnerabilities
+City Invasion
+Clicker
+CMesS
+ColdBox: Easy
+Colddbox: Easy
+Color Flood
+Command Injection
+Common Attacks
+Common Linux Privesc
+Complete Beginner
+Connect
+Containers
+Content Discovery
+Converted
+ConvertMyVideo
+Cooctus Stories
+Core Windows Processes
+Corp
+Corridor
+Couch
+Crack the hash
+Crack The Hash Level 2
+Creative
+Credentials Harvesting
+Critical
+Crocc Crew
+Crylo
+Crypto Failures
+Cryptography Basics
+Cryptography for Dummies
+Cryptosystem
+CSRF
+CTF collection Vol.1
+CTF collection Vol.2
+CTF collection Vol.3
+Custom Alert Rules
+CVE-2023-38831
+CVE-2024-6387
+Cyber Defense Frameworks
+Cyber Heroes
+Cyber Kill Chain
+Cyber Threat Intelligence
+CyberDefenders: Acoustic
+CyberDefenders: AfricanFalls
+CyberDefenders: PacketMaze
+CyberLens
+CyberSecLabs: Bravery
+Data Exfiltration
+Database Vulnerabilities
+DDoS Attacks
+Debug
+Defensive Security Intro
+Deploying and Integrating Suricata IDS
+DevSecOps Culture
+Diamond Model
+Disgruntled
+Custom Alert Rules in Wazuh
+Custom Tooling using Burp
+Custom Tooling Using Python
+CVE-2021-41773/42013
+CVE-2022-26923
+CVE-2023-38408
+Cyber Crisis Management
+Cyber Kill Chain
+Cyber Scotland 2021
+CyberChef: The Basics
+CyberCrafted
+CyberHeroes
+CyberLens
+Cyborg
+Daily Bugle
+DarkMatter
+DAST
+Data Exfiltration
+Dav
+DDoS
+Debug
+Debugging with GDB
+Defacing
+Defender Intro
+Defensive Security
+Delayed
+Deploying Active Directory
+Des-Exploit-Tron
+Detection Engineering
+Devel
+DevSecOps
+Diamond Model
+Dirty Pipe: CVE-2022-0847
+Disgruntled
+DNS in detail
+DNS Manipulation
+Docker for Pentesters
+Docker Rodeo
+Dreaming
+Drupal: CVE-2018-7600
+DX1: Liberty Island
+DX2: Hell's Kitchen
+Easy Peasy
+Eboot2Root
+EDR
+ELF Basics
+Elastic Stack Integration
+Elevation of Privileges
+ELK
+Email Analysis
+Emote
+Empire
+Encryption - Crypto 101
+Endpoint Security Monitoring
+Enpass
+Enumeration
+Epoch
+Etch
+Event Management
+Eviction
+Exam Room
+ExfilNode
+Expediting Registry Analysis
+Exploit Vulnerabilities
+Exploiting Active Directory
+Expose
+EXT Analysis
+Extending Your Network
+Extracted
+FAT32 Analysis
+ffuf
+File Carving
+File Inclusion
+File Upload Vulnerabilities
+Firewall Fundamentals
+Firewalls
+Fixit
+Flag Vault
+Flag Vault 2
+FlareVM: Arsenal of Tools
+Flatline
+Follow the Path
+Forensics
+Fortress
+Frank and Herby Make an Appointment
+Game Zone
+Gaming Server
+GamingServer
+Gatekeeper
+GCCCTF
+Geoguessr
+Get Ahead
+Git and Crumpets
+Git Happens
+GitHappens
+Global Command and Control
+GoldenEye
+Google Dorking
+Gotta Catch'em All
+GreenFlare
+Flip
+Follina MSDT
+For Business Reasons
+Forensic Imaging
+Forensics
+Forgotten Implant
+Fortress
+Fowsniff CTF
+Frank & Herby make an app
+Frank and Herby try again.....
+Friday Overtime
+Frosteau Busy with Vim
+Fusion Corp
+Gallery
+Game Zone
+GameBuzz
+GamingServer
+Gatekeeper
+Geolocating Images
+Getting Started
+GitLab CVE-2021-22205
+Glass
+glitch
+GoldenEye
+Google Dorking
+Gotta Catch'em All
+GPU Cracking
+GQUIC Protocol
+GraphQL
+Grep
+Grep
+Hack Back
+HackPark
+Hacker vs. Hacker
+Hacking with PowerShell
+Hard Pill
+Harder
+HaskHell
+Holo
+Horizontal Privilege Escalation
+HTB CTF
+HTTP in Detail
+HTTP Request Smuggling
+HTTPS in Detail
+HydraSwoops
+Ice
+ICS Firmware Security
+Идентификация и Противодействие
+Ignite
+Immunity Debugger
+Impacket Tutorial
+Inclusion
+Incident Handling with Splunk
+Industrial Intrusion
+Inferno
+Infinity Shell
+Injectics
+Insecure Deserialisation
+Insecure Randomness
+Insekube
+Intermediate Nmap
+Internal
+Intranet
+Intro PoC Scripting
+Intro to C2
+Intro to Cloud Security
+Intro to Cold System Forensics
+Intro to Containerisation
+Intro to Cross-site Scripting
+Intro to Cyber Threat Intel
+Intro to Defensive Security
+Intro to Detection Engineering
+Intro to Digital Forensics
+Grep
+h4cked
+Hammer
+Haskhell
+Heartbleed
+Hello World
+Hex
+HiddenInPlainSight
+Hill Cipher
+Homeles
+Hopper's Roppers Badge
+How to Use TryHackMe
+How Web Applications Work
+HTTP2 Explained
+HydraSwoops
+Identity and Access Management
+Ignite
+Imbalanced Data
+Immunity Tutorial
+Impact
+Incident Response Foundations
+Incident Response Prep
+Inclusion
+Inferno
+Introduction to Django
+Introduction to Flask
+Introduction to Linux
+Intro to Docker
+Intro to Endpoint Security
+Intro to GraphQL Hacking
+Intro to IaC
+Intro to IoT Pentesting
+Intro to IR and IM
+Intro to Kubernetes
+Intro to LAN
+Intro to Log Analysis
+Intro to Logs
+Intro to Malware Analysis
+Intro to Offensive Security
+Intro to Pipeline Automation
+Intro To Pwntools
+Intro to SSRF
+Intro to Threat Emulation
+Introduction to Antivirus
+Introduction to Cryptography
+Introduction to CryptOps
+Introduction to DevSecOps
+Introductory Networking
+Introductory Researching
+Intrusion Detection
+Investigating with ELK 101
+Investigating Windows
+Investigating Windows 2.0
+Investigating Windows 3.x
+Investigating with Splunk
+IR Timeline Analysis
+IronCorp
+IRSE
+Island Orchestration
+Jack
+Jack of All Trades
+James Bond: Room 1
+Jason
+Java Deserialization
+Java SSTI
+JIS CTF: VulnUpload
+John Hammond Junior
+JokerCTF
+JSONWEBTOKEN
+Juicy Details
+Juice Shop
+K-9
+Katana
+Kerberos
+Kessel Run
+Key Management
+Keybored
+Keyring
+KillShot
+Kim's Crew
+King of the Hill
+Kitchen
+Koth Hackers
+Kubernetes for Everyone
+KyleBot
+La Casa De Papel
+Lab
+LAN Threat Simulation
+LazyAdmin
+Learning Malware Analysis
+Learning the Ropes
+Ledger
+Legal Considerations in DFIR
+Length Extension Attacks
+Lesson Learned?
+Lessons Learned
+Lian_Yu
+Library
+Light
+Linux Agency
+Linux Backdoors
+Linux File System Analysis
+Linux Forensics
+Linux Function Hooking
+Linux Fundamentals Part 1
+Linux Fundamentals Part 2
+Linux Fundamentals Part 3
+Linux Incident Surface
+Linux Live Analysis
+Linux Logs Investigations
+Linux Memory Analysis
+Linux Privilege Escalation
+Linux Process Analysis
+Linux Server Forensics
+Linux PrivEsc
+Linux PrivEsc Arena
+Linux Reverse Engineering
+Linux Rootkits
+Linux System Hardening
+Linux Strength Training
+Linux Wireshark Traffic Analysis
+LNX
+Local File Inclusion
+Local File Inclusion - Advanced
+Lockdown
+Log Analysis
+Log Operations
+Linux Modules
+Linux PrivEsc Arena
+Linux Privilege Escalation
+Linux Process Analysis
+Linux Server Forensics
+Linux Shells
+Linux Strength Training
+Linux System Hardening
+Living Off the Land
+Lo-Fi
+LocalPotato
+Lockdown
+Log Operations
+Log Universe
+Logging for Accountability
+Logless Hunt
+Logs Fundamentals
+Logstash: Data Processing Unit
+Lookback
+Looking Glass
+Madness
+MAL: Malware Introductory
+MAL: Researching
+MAL: Strings
+Malware Analysis Module
+Malware Sandbox Evasion
+Malware Sandboxes
+Malbuster
+Maldocs
+Manhattan
+Markdown to PDF Converter
+Marketplace
+Meltdown Explained
+Memory Forensics
+Metasploit: Introduction
+Metasploit: Exploitation
+Metasploit: Meterpreter
+Meteoroid
+Minotaur's Labyrinth
+MITRE ATT&CK Framework
+MISP
+Mobile Malware Analysis
+MrRobot
+Multi-Factor Authentication
+Mustacchio
+Napping
+Nahamcon CTF
+NahamStore
+Neighbour
+Nessus
+Netfilter
+Network Device Hardening
+Network Fundamentals
+Network Miner
+Network Security
+Network Security Protocols
+Network Security Solutions
+Network Services
+Network Services 2
+Networking Concepts
+Networking Core Protocols
+Networking Essentials
+Networking Secure Protocols
+NetworkMiner
+New Hire Old Artifacts
+New York Flankees
+Next.js: CVE-2025-29927
+Ninja Skills
+NIS - Linux Part I
+Nmap
+Nmap Advanced Port Scans
+Nmap Basic Port Scans
+Nmap Live Host Discovery
+Nmap Post Port Scans
+Master
+Meterpreter
+Mindgames
+Misguided Ghosts
+Mission Impossible
+Monitor
+Moria
+MotherSecret
+Mr Phisher
+Multimedia
+Mnemonic
+Miskatonic University
+Net Sec Challenge
+Netwars
+Netsec Playground
+Network Exploitation
+Network File Shares
+Nice Try!
+Nikto
+NoNameCTF
+Normal](https://example.com
+Nosqlinjection
+Osint
+OhSINT
+Offensive Pentesting
+OSI Model
+Nmap: The Basics
+NoNameCTF
+NoSQL injection Basics
+NTFS Analysis
+OAuth Vulnerabilities
+Obfuscation Principles
+Obscure
+Offensive Security Intro
+Oh My WebServer
+OhSINT
+Ollie
+Olympus
+On-Premises IaC
+One Piece
+Opacity
+OpenCTI
+OpenVAS
+OpenVPN
+Operating System Security
+Oracle 9
+OWASP API Security Top 10
+OWASP Broken Access Control
+OWASP Juice Shop
+OWASP Top 10
+OWASP Top 10 - 2021
+Overpass
+Overpass 2 - Hacked
+Overpass 3 - Hosting
+Packet Analysis
+Packets & Frames
+PalsForLife
+Passive Reconnaissance
+Password Attacks
+Password Cracking
+Passwords
+PaSsWoRd ReSeTtEr
+Paul Hunt
+Pentest Bookmarks
+Pentesting Fundamentals
+Persistence
+Phishing
+Phishing Analysis Fundamentals
+Phishing Emails in Action
+PhishingRoom
+Physical Security
+Pickle Rick
+Plotted
+Post-Exploitation Basics
+Post-Exploitation Frameworks
+PowerShell for Pentesters
+PowerView
+Practical Ethical Hacking
+Pre Security
+Principles of Security
+Print Nightmare
+PrintNightmare Again
+PrivescCheck
+Privilege Escalation
+Programming Fundamentals
+ProShop
+PS Eclipse
+Psycho Break
+Purple Team
+Putting it all together
+PWN101
+Pwnkit: CVE-2021-4034
+pyLon
+Pyramid Of Pain
+Pyrat
+Python Basics
+Python for Pentesters
+Python Playground
+Ra
+Ra 2
+Rabbit Hole
+Rabbit Store
+Race Conditions
+Race Conditions Challenge
+Racetrack Bank
+RazorBlack
+Recovering Active Directory
+Recovery
+Red
+Printer Hacking 101
+PrivEsc
+Probe
+Producer
+Prospect
+Protocols and Servers
+Protocols and Servers 2
+PS Empire
+Public Key Cryptography
+Publish
+Purple Team Fundamentals
+Put on the Glasses
+Puzzle
+Pwned
+Pwnme
+Pwning WordPress
+Query
+Red Stone One Carat
+Red Team Engagements
+Red Team Fundamentals
+Red Team OPSEC
+Red Team Recon
+Red Team Threat Intel
+Redline
+Registry Persistence Detection
+Regular expressions
+Relevant
+REloaded
+REMnux: Getting Started
+REmux The Tmux
+Request Smuggling: WebSockets
+Reset
+ret2libc
+Retracted
+Retro
+Revenge
+Reversing ELF
+REvil Corp
+RFC
+RoP Primer
+RootMe
+Router
+RPWebApp
+RRootMe
+RSMTP
+RTFM
+Run
+Rust
+SAKURA ROOM
+SANS Holiday Hack Challenge
+SBurger
+Scaling Up
+Scanning and Enumeration
+Scripting
+SearchLight - IMINT
+Secure Software Development
+SecureSolaireYou
+Security Awareness
+Security Engineer Intro
+Security Operations
+Security Principles
+Seekr
+SEH Overflow
+Server-Side Template Injection
+Serverless
+Services
+Shell Commands
+Shell Scripting
+Shodan.io
+Simple CTF
+Skynet
+SmagGrotto
+Smag Grotto
+SMTP Misconfigurations
+Snort
+Snort Challenge - Live Attacks
+Snort Challenge - The Basics
+SOC Analysis
+SOC Automation
+SOC Fundamentals
+SOC Level 1
+SOC Workbooks and Lookups
+Solar
+Source
+Source Code Security
+Splunk 2
+Splunk 3
+Splunk: Basics
+Splunk: Dashboards and Reports
+Splunk: Data Manipulation
+Splunk: Exploring SPL
+Splunk: Setting up a SOC Lab
+Spring
+Spring4Shell: CVE-2022-22965
+SQHell
+SQL Fundamentals
+SQL Injection
+SQL Injection Lab
+SQLMAP
+SQLMap: The Basics
+Squid Game
+Road
+Rogue
+ROP Emporium
+rpburpsuite
+rpnessus
+rpthreathunting
+rpwebscanning
+RTP
+Rust Scanning
+SACRA
+SafeZone
+Sage
+SAST
+SCSM
+Search Skills
+Seaside Surfing
+SSDLC
+SSRF
+SSTI
+Starting Out In Cyber Sec
+Startup
+Startup
+Stealth
+Steel Mountain
+StuxCTF
+Subdomain Enumeration
+Sudo Buffer Overflow
+Sudo Security Bypass
+Summit
+Super Secret TIp
+Super-Spam
+Supplemental Memory
+Supply Chain Attack: Lottie
+Surfer
+Sustah
+Sweettooth Inc.
+Symfony
+Sysinternals
+System Security
+T-Pot
+Take Flights
+Tardigrade
+Task Scheduler
+TBHH
+TCP/IP
+Team
+TechSupp0rt: 1
+Tempest
+Terraform
+Terminal
+The Blob Blog
+The Cod Caper
+The Docker Rodeo
+The Find Command
+The Great Escape
+The Hacker Methodology
+The Impossible Challenge
+The Lay of the Land
+The London Bridge
+The Marketplace
+The Server From Hell
+The Sticker Shop
+The World
+Threat Intelligence Tools
+Threat Modeling
+Throwback
+Tomghost
+Tony the Tiger
+Tor
+Trace
+Traffic Analysis Essentials
+Trap
+Tre
+Tryhack3M: 0Day
+TryHack3M: Advent of Cyber Side Quest
+TryHack3M: Bah Humbug
+TryHack3M: Biohazard
+TryHack3M: Boss of the SOC V2
+TryHack3M: Cherry Blossom
+TryHack3M: Cyber Siege
+TryHack3M: Elf Minder 9000
+TryHack3M: Evergreen
+TryHack3M: Ghost Town
+TryHack3M: IDE
+TryHack3M: Kibana
+TryHack3M: Literary Hacking
+TryHack3M: Network Forensics
+TryHack3M: Sch3Ma D3Mon
+TryHack3M: Subscribe
+TryHack3M: TriCipher Summit
+TryPwnMe One
+TryPwnMe Two
+TryWinMe: Think Cyber Monopoly
+TShark
+TShark Challenge I: Teamwork
+TShark Challenge II: Directory
+TShark: CLI Wireshark Features
+TShark: The Basics
+Tutorial
+U.A. High School
+UltraTech
+Umbrella
+Unattended
+Unbaked Pie
+Unified Kill Chain
+Unstable Twin
+Upload Vulnerabilities
+Techsupp0rt: 1
+Theatre
+Thompson
+Threat Hunting: Foothold
+Threat Hunting: Pivoting
+Threat Hunting: Ransomware
+Toolbox: Vim
+Toronto
+TPot
+Uranium CTF
+Valley
+Velociraptor
+Virtualization and Containers
+Void Execution
+Volatility
+Volatility Essentials
+Volt Typhoon
+Vulnerabilities 101
+Vulnerability Capstone
+Vulnerability Management
+Vulnerability Scanner Overview
+VulnNet
+VulnNet: Active
+VulnNet: dotjar
+VulnNet: dotpy
+VulnNet: Endgame
+VulnNet: Internal
+VulnNet: Node
+VulnNet: Roasted
+VulnUniversity
+VulnVault
+W1seGuy
+Walking an Application
+Watcher
+Wazuh
+We Are Groot
+Web App Security
+Web Application Firewall
+Web Enumeration
+Web Fundamentals
+Web OSINT
+Web Scanning
+WebApp Security
+Wekor
+Wgel CTF
+What the Shell
+Windows Fundamentals 1
+Windows Fundamentals 2
+Windows Fundamentals 3
+Windows Forensics
+Windows Local Persistence
+Windows PrivEsc
+Windows PrivEsc Arena
+Windows Privilege Escalation
+Wireless Hacking 101
+Wireshark 101
+Wireshark: Packet Operations
+Wireshark: The Basics
+Wireshark: Traffic Analysis
+Wonderland
+WordPress: CVE-2021-29447
+Wrath
+Writing Pentest Reports
+WWBuddy
+x86 Architecture Overview
+x86 Assembly Crash Course
+XDR: Introduction
+XSS
+XXE Injection
+Yara
+Year of the Dog
+Year of the Fox
+Year of the Jellyfish
+Year of the Owl
+Year of the Pig
+Year of the Rabbit
+You Got Mail
+You're in a cave
+Zeek
+Zeek Exercises
+Zeno
+Zero Logon
+VPN Basics
+Vulnversity
+Vulnerability Research
+VulnServer
+W3bsploit
+WAF Bypass
+Wallet
+WarGames
+Warzone 1
+Warzone 2
+Webhook Security
+WebGym
+WebShell
+What is Networking
+WiFi Hacking 101
+Windows API
+Windows Event Logs
+Windows Exploitation
+Windows Internals
+Windows Persistence
+Windows Reverse Shell
+Windows System Administration
+Wordlist Generation
+World Wide Web
+Worm Propagation
+Writeups
+Year of the Dog 2'

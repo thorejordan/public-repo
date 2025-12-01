@@ -1,0 +1,106 @@
+{
+  "teams": [
+    {
+      "id": "windows-client",
+      "name_de": "Windows-Client-Team",
+      "name_en": "Windows Client Team",
+      "role_de": "Windows Client Administrator",
+      "role_en": "Windows Client Administrator",
+      "overview_de": "M365, Exchange Online, Windows-Client-Management in einer hybriden Enterprise-Umgebung (On-Prem AD + Azure AD).",
+      "overview_en": "M365, Exchange Online, Windows client management in a hybrid enterprise environment (on-prem AD + Azure AD).",
+      "environment_de": "Standardisierter Windows-10/11-Client mit zentralem Management (GPO + Intune/MECM/SCCM).",
+      "environment_en": "Standardized Windows 10/11 client with centralized management (GPO + Intune/MECM/SCCM).",
+      "tags": ["windows","client","m365","intune","sccm","edr"],
+      "tools": {
+        "client_management": ["SCCM/MECM","Intune"],
+        "imaging": ["WDS","MDT","WIM","Autopilot"],
+        "patching": ["WSUS","MECM/Intune"],
+        "edr": ["Microsoft Defender for Endpoint","CrowdStrike (optional)","SentinelOne (optional)"],
+        "vpn": ["Cisco AnyConnect","GlobalProtect","FortiClient"],
+        "remote_support": ["TeamViewer","BeyondTrust","MECM Remote Control"],
+        "profiling": ["FSLogix","Roaming Profiles","Folder Redirection"]
+      },
+      "tasks_de": ["3rd-Level-Support","GPO-Pflege","Anwendungs-Rollout","Patch-Steuerung","EDR-Incident-Handling","On/Offboarding","Performance-Optimierung"],
+      "tasks_en": ["3rd-level support","GPO maintenance","application packaging & rollout","patch management","EDR incident handling","on/offboarding","performance optimization"]
+    },
+    {
+      "id": "windows-server",
+      "name_de": "Windows-Server-Team",
+      "name_en": "Windows Server Team",
+      "role_de": "Windows Server Administrator",
+      "role_en": "Windows Server Administrator",
+      "overview_de": "Betrieb und Härtung von Windows-Servern, Hybrid-AD und Virtualisierung (Hyper-V/VMware).",
+      "overview_en": "Operation and hardening of Windows servers, hybrid AD and virtualization (Hyper-V/VMware).",
+      "environment_de": "AD DS, DNS, DHCP, File/Print, RDS, Exchange (Hybrid), mehrere DCs pro Site.",
+      "environment_en": "AD DS, DNS, DHCP, File/Print, RDS, Exchange (hybrid), multiple DCs per site.",
+      "tags": ["windows","server","ad","hyperv","vmware","backup"],
+      "tools": {
+        "identity": ["AD DS","Azure AD Connect","Conditional Access"],
+        "storage": ["DFS","Storage Spaces Direct","SAN","Storage Replica"],
+        "virtualization": ["Hyper-V","VMware"],
+        "monitoring": ["SCOM","Windows Admin Center","Perfmon"],
+        "security": ["Defender for Endpoint","Defender for Identity","CIS Benchmarks"]
+      },
+      "tasks_de": ["Betrieb AD/DNS/DHCP","GPO-Rollout","Kapazitätsplanung","Patch-Fenster","Backup/Restore Tests","Incident-Handling"],
+      "tasks_en": ["operate AD/DNS/DHCP","GPO rollout","capacity planning","patch windows","backup/restore tests","incident handling"]
+    },
+    {
+      "id": "network",
+      "name_de": "Network-Team",
+      "name_en": "Network Team",
+      "role_de": "Network Administrator",
+      "role_en": "Network Administrator",
+      "overview_de": "Enterprise-Netzwerkbetrieb mit redundanten Lagen, VPNs und Next-Gen-Firewalls.",
+      "overview_en": "Enterprise network operations with redundant layers, VPNs and next-gen firewalls.",
+      "environment_de": "Cisco Core/Access, Next-Gen-Firewalls, mehrere Standorte, Wireless-Controller.",
+      "environment_en": "Cisco core/access, next-gen firewalls, multiple sites, wireless controllers.",
+      "tags": ["network","cisco","firewall","vpn","wlan","nac"],
+      "tools": {
+        "switching": ["Cisco Catalyst/Nexus","VSS/StackWise"],
+        "firewalls": ["Palo Alto","Fortinet","Check Point"],
+        "vpn": ["AnyConnect","GlobalProtect","Site-to-Site IPsec"],
+        "monitoring": ["NetFlow","SNMP (PRTG/SCOM)","Wireshark"]
+      },
+      "tasks_de": ["Switching/WLAN-Betrieb","Firewall- und VPN-Management","Incident-Handling","802.1X/Zugriffsmanagement"],
+      "tasks_en": ["switching/wlan operations","firewall & vpn management","incident handling","802.1X access management"]
+    },
+    {
+      "id": "dba",
+      "name_de": "DBA-Team",
+      "name_en": "DBA Team",
+      "role_de": "Database Administrator",
+      "role_en": "Database Administrator",
+      "overview_de": "Betrieb heterogener Datenbanken in reguliertem Umfeld (BaFin/DSGVO).",
+      "overview_en": "Operation of heterogeneous databases in regulated environments (BaFin/GDPR).",
+      "environment_de": "SQL Server, Oracle, DB2, PostgreSQL/MySQL; Windows und Linux Hosts.",
+      "environment_en": "SQL Server, Oracle, DB2, PostgreSQL/MySQL; Windows and Linux hosts.",
+      "tags": ["database","sql","oracle","backup","ha"],
+      "tools": {
+        "rdbms": ["Microsoft SQL Server","Oracle","DB2","PostgreSQL/MySQL"],
+        "ha_dr": ["Always On AG","Oracle RAC","Data Guard","Patroni"],
+        "backup": ["RMAN","pgBackRest","Veeam"]
+      },
+      "tasks_de": ["Provisionierung","Performance-Tuning","Backup/Restore","Patching","Rechteverwaltung"],
+      "tasks_en": ["provisioning","performance tuning","backup/restore","patching","access management"]
+    },
+    {
+      "id": "linux",
+      "name_de": "Linux-Team",
+      "name_en": "Linux Team",
+      "role_de": "Linux Administrator",
+      "role_en": "Linux Administrator",
+      "overview_de": "Betrieb von Linux-Servern, Container- und Automatisierungsplattformen.",
+      "overview_en": "Operation of Linux servers, container and automation platforms.",
+      "environment_de": "RHEL/SLES/Debian/Ubuntu; VMware vSphere; Kubernetes/OpenShift.",
+      "environment_en": "RHEL/SLES/Debian/Ubuntu; VMware vSphere; Kubernetes/OpenShift.",
+      "tags": ["linux","ansible","kubernetes","monitoring","security"],
+      "tools": {
+        "config_mgmt": ["Ansible","Puppet","Salt"],
+        "container": ["Docker","Podman","Kubernetes","OpenShift"],
+        "monitoring": ["Prometheus","Grafana","ELK/OpenSearch"]
+      },
+      "tasks_de": ["Server-Provisionierung","Ansible-Playbooks","Patch-Management","Hardening"],
+      "tasks_en": ["server provisioning","ansible playbooks","patch management","hardening"]
+    }
+  ]
+}
