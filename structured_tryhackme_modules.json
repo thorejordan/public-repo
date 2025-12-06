@@ -1,0 +1,114 @@
+[
+  {
+    "modul_identifikator": "THM_DFIR_INC_RESP_003",
+    "kurzbeschreibung": "Dieser immersive Workshop bereitet auf die operative Leitung von komplexen Cyber-Vorfällen vor, von der initialen Detektion über die Containment-Strategien bis zur Post-Incident-Analyse und der forensischen Spurensicherung in heterogenen Systemlandschaften. Fokus liegt auf der Anwendung des NIST-Frameworks in der Praxis.",
+    "anspruchsniveau": "Expertise-Level",
+    "fachgebiet_zuordnung": [
+      "Forensik & Incident Response",
+      "Threat Intelligence",
+      "Compliance & Governance"
+    ],
+    "inhaltsstichworte": [
+      "Volatility Framework",
+      "YARA Rules",
+      "Sigma Rules",
+      "Splunk SOAR",
+      "MITRE ATT&CK",
+      "Digital Forensics",
+      "Memory Analysis",
+      "NIST Incident Response"
+    ],
+    "durchschnittliche_bearbeitungsdauer": {
+      "stunden": 8,
+      "minuten": 20
+    },
+    "notwendige_vorkenntnisse": [
+      "Grundkenntnisse Windows Server Administration",
+      "Linux Command Line Proficiency (Advanced)",
+      "TryHackMe: SIEM Fundamentals - Sentinel Integration"
+    ],
+    "zertifizierung_assoziationen": [
+      {
+        "art": "Skill Badge",
+        "bezeichnung": "Advanced DFIR Analyst",
+        "herausgeber": "TryHackMe Certification Track"
+      },
+      {
+        "art": "CEU-Punkte",
+        "wert": 8,
+        "akkreditierungsstelle": "ISC²"
+      }
+    ],
+    "publikationszustand": "Produktiv",
+    "erfolgreiche_vollendungen": 14500,
+    "aggregierte_nutzerbewertung": {
+      "gesamt_durchschnitt": 4.9,
+      "anzahl_feedbacks": 3150,
+      "bewertungsaspekte": {
+        "didaktische_klarheit": 4.9,
+        "praxisrelevanz": 5.0,
+        "technische_stabilitaet": 4.7,
+        "herausforderungsbalance": 4.8
+      }
+    },
+    "permanente_ressourcen_url": "https://tryhackme.com/room/advancedirplaybooks",
+    "qualitaetssicherung_hinweise": [
+      "Vergleiche erfolgreiche_vollendungen woechentlich mit dem Plattform-Dashboard (Export-Datum kennzeichnen)",
+      "Validiere modul_identifikator gegen den TryHackMe-Slug und dokumentiere Abweichungen"
+    ]
+  },
+  {
+    "modul_identifikator": "THM_CLD_SEC_K8S_HARDR",
+    "kurzbeschreibung": "Dieser spezialisierte Workshop beleuchtet umfassend die Sicherheitsherausforderungen und Best Practices zur Härtung von Kubernetes-Clustern. Er deckt Aspekte wie RBAC, Network Policies, Image Security, und die Integration in Cloud-Provider-spezifische Sicherheitsmechanismen ab, um robuste, produktionsreife Umgebungen zu gewährleisten.",
+    "anspruchsniveau": "Meisterhaftigkeit",
+    "fachgebiet_zuordnung": [
+      "Cloud Security",
+      "DevSecOps",
+      "Container Orchestration"
+    ],
+    "inhaltsstichworte": [
+      "Kubernetes Security",
+      "Docker Hardening",
+      "CI/CD Pipeline Security",
+      "Terraform Security",
+      "RBAC",
+      "Network Policies",
+      "Image Scanning",
+      "Service Mesh Security",
+      "Cloud Native Security"
+    ],
+    "durchschnittliche_bearbeitungsdauer": {
+      "stunden": 12,
+      "minuten": 45
+    },
+    "notwendige_vorkenntnisse": [
+      "Fundiertes Verständnis von Containern und Docker",
+      "Operative Erfahrung mit Kubernetes (Basisadministration)",
+      "TryHackMe: Cloud Fundamentals - Azure & AWS"
+    ],
+    "zertifizierung_assoziationen": [
+      {
+        "art": "Specialized Certificate",
+        "bezeichnung": "Certified Kubernetes Security Specialist Prep",
+        "herausgeber": "Cybex Solutions Academy"
+      }
+    ],
+    "publikationszustand": "Pilotprojekt",
+    "erfolgreiche_vollendungen": 780,
+    "aggregierte_nutzerbewertung": {
+      "gesamt_durchschnitt": 4.6,
+      "anzahl_feedbacks": 120,
+      "bewertungsaspekte": {
+        "didaktische_klarheit": 4.5,
+        "praxisrelevanz": 4.8,
+        "technische_stabilitaet": 4.6,
+        "herausforderungsbalance": 4.9
+      }
+    },
+    "permanente_ressourcen_url": "https://tryhackme.com/room/cloudk8shardening",
+    "qualitaetssicherung_hinweise": [
+      "Pruefe monatlich, ob die Cloud-Provider-APIs und RBAC-Beispiele mit aktuellen Kubernetes-Versionen kompatibel sind",
+      "Stelle sicher, dass die durchschnittliche_bearbeitungsdauer anhand der neuesten Abschlussstatistiken recalibriert wird"
+    ]
+  }
+]
