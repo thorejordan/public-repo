@@ -110,5 +110,116 @@
       "Pruefe monatlich, ob die Cloud-Provider-APIs und RBAC-Beispiele mit aktuellen Kubernetes-Versionen kompatibel sind",
       "Stelle sicher, dass die durchschnittliche_bearbeitungsdauer anhand der neuesten Abschlussstatistiken recalibriert wird"
     ]
+  },
+  {
+    "modul_identifikator": "THM_SOC_AUTOMATION_021",
+    "kurzbeschreibung": "Ein praxisnaher Workshop zur Automatisierung von SOC-Playbooks mit SOAR-Integrationen, inklusive Log-Normalisierung, Anreicherung mit Threat Intelligence und dem Aufbau von Escalation-Rules für hybride Umgebungen.",
+    "anspruchsniveau": "Aufbauend",
+    "fachgebiet_zuordnung": [
+      "Security Operations",
+      "Automation & Orchestration",
+      "Threat Intelligence"
+    ],
+    "inhaltsstichworte": [
+      "SOAR",
+      "SIEM",
+      "Sysmon",
+      "Log Normalization",
+      "MITRE ATT&CK Mapping",
+      "Threat Intel Enrichment",
+      "Sigma Correlation",
+      "Playbook Design"
+    ],
+    "durchschnittliche_bearbeitungsdauer": {
+      "stunden": 6,
+      "minuten": 30
+    },
+    "notwendige_vorkenntnisse": [
+      "TryHackMe: SIEM Fundamentals - Sentinel Integration",
+      "Grundlagen YAML/JSON",
+      "Basiswissen PowerShell oder Python"
+    ],
+    "zertifizierung_assoziationen": [
+      {
+        "art": "Skill Badge",
+        "bezeichnung": "Security Automation Practitioner",
+        "herausgeber": "TryHackMe"
+      }
+    ],
+    "publikationszustand": "Revisionsphase",
+    "erfolgreiche_vollendungen": 2480,
+    "aggregierte_nutzerbewertung": {
+      "gesamt_durchschnitt": 4.7,
+      "anzahl_feedbacks": 640,
+      "bewertungsaspekte": {
+        "didaktische_klarheit": 4.6,
+        "praxisrelevanz": 4.9,
+        "technische_stabilitaet": 4.5,
+        "herausforderungsbalance": 4.7
+      }
+    },
+    "permanente_ressourcen_url": "https://tryhackme.com/room/socautomation",
+    "qualitaetssicherung_hinweise": [
+      "Alle sechs Wochen Runbooks mit neuen Threat-Intel-Feeds testen (z. B. MISP, OTX)",
+      "Validiere Sigma-Regeln gegen aktuelle SIEM-Versionen und dokumentiere Falsch-Positiv-Raten"
+    ]
+  },
+  {
+    "modul_identifikator": "THM_OT_REDTEAM_014",
+    "kurzbeschreibung": "Fortgeschrittenes Red-Teaming in OT-Netzwerken mit Fokus auf ICS/SCADA-Angriffspfade, Netzwerksegmentierung, Protokollmanipulation (Modbus, DNP3) und sichere Wiederherstellung.",
+    "anspruchsniveau": "Meisterhaftigkeit",
+    "fachgebiet_zuordnung": [
+      "Red Teaming",
+      "Operational Technology",
+      "Industrial Control Systems"
+    ],
+    "inhaltsstichworte": [
+      "ICS/SCADA",
+      "Modbus",
+      "DNP3",
+      "Network Segmentation Bypass",
+      "Payload Delivery",
+      "C2 Resilience",
+      "Recovery Playbooks",
+      "Threat Emulation"
+    ],
+    "durchschnittliche_bearbeitungsdauer": {
+      "stunden": 10,
+      "minuten": 15
+    },
+    "notwendige_vorkenntnisse": [
+      "Solide Kenntnisse in Netzwerksegementierung und Firewalling",
+      "TryHackMe: Offensive Pentesting oder gleichwertige Praxis",
+      "Grundverständnis industrieller Protokolle"
+    ],
+    "zertifizierung_assoziationen": [
+      {
+        "art": "CEU-Punkte",
+        "wert": 12,
+        "akkreditierungsstelle": "GIAC"
+      },
+      {
+        "art": "Skill Badge",
+        "bezeichnung": "OT Red Team Specialist",
+        "herausgeber": "TryHackMe"
+      }
+    ],
+    "publikationszustand": "Pilotprojekt",
+    "erfolgreiche_vollendungen": 320,
+    "aggregierte_nutzerbewertung": {
+      "gesamt_durchschnitt": 4.8,
+      "anzahl_feedbacks": 90,
+      "bewertungsaspekte": {
+        "didaktische_klarheit": 4.5,
+        "praxisrelevanz": 5.0,
+        "technische_stabilitaet": 4.6,
+        "herausforderungsbalance": 4.9
+      }
+    },
+    "permanente_ressourcen_url": "https://tryhackme.com/room/otredteam",
+    "qualitaetssicherung_hinweise": [
+      "Vierteljaehrlicher Abgleich der OT-Lab-Images mit aktuellen ICS-CERT Advisories",
+      "Penetrationstest-Skripte auf Kompatibilität mit Air-Gapped-Umgebungen pruefen"
+    ]
   }
 ]
